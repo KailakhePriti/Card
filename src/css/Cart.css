@@ -1,0 +1,33 @@
+label{
+    margin: 10px;
+    color: black;
+}
+.title{
+    margin: auto 0;
+    text-align: left;
+    
+}
+hr{
+    border-bottom: 2px solid black;
+   width: 60%; 
+}
+@media(max-width: 768px)
+{
+    hr{
+        border-bottom: 2px solid black;
+        width: 35%;
+    }
+}
+.card_body{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 20px;
+}
+.courses_box{
+    margin: auto 0px;
+    
+}
+/* 
+.courses_box input{
+    margin-left: 40px;
+} */
